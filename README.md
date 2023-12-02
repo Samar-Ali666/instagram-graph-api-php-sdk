@@ -9,7 +9,7 @@ This repository contains the open source PHP SDK that allows you to access the I
 Run this command:
 
 ```
-composer require jstolpe/instagram-graph-api-php-sdk
+composer require samarali/instagram-graph-api-php-sdk
 ```
 
 Require the the autoloader.
