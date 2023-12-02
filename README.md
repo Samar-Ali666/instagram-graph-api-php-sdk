@@ -35,6 +35,7 @@ require_once '/instagram-graph-api-php-sdk/src/instagram/autoload.php'; // chang
 ## Usage
 
 Simple GET example of a user's profile and media posts.
+
 ```php
 use Instagram\User\BusinessDiscovery;
 
@@ -52,6 +53,7 @@ $userBusinessDiscovery = $businessDiscovery->getSelf();
 ```
 
 Simple POST example of posting an image to an Instagram account.
+
 ```php
 use Instagram\User\Media;
 use Instagram\User\MediaPublish;
@@ -83,6 +85,7 @@ $publishedPost = $mediaPublish->create( $imageContainerId );
 ```
 
 Example of a custom request.
+
 ```php
 // first we have to instantiate the core Instagram class with our access token
 $instagram = new Instagram\Instagram( array(

@@ -35,7 +35,7 @@ namespace Instagram\Request;
  * @version     1.0
  */
 class MediaTypes {
-    const VIDEO = 'VIDEO';
+    const VIDEO = 'REELS';
     const CAROUSEL = 'CAROUSEL';
 }
 
